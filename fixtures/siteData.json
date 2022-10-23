@@ -1,0 +1,94 @@
+{
+    "title": "Rory Coded This",
+    "description": "Rory's website and portfolio - Rory coded this",
+    "author": "Rory Samson",
+    "keywords": "HTML, CSS, Javascript, Portfolio, Rory Samson",
+    "intro": {
+        "title": "Rory Samson",
+        "subtitle": "Front-to-back developer and IT business analyst",
+        "para": "Hi, _I'm Rory_.\n\nI am looking for my _next developer job_. Please _check out my work_.\nCould I be a good fit for your team?"
+    },
+    "detail": {
+        "title": "What I can do",
+        "para": "I am a _developer_ and competent _operations_ _analyst_ with a passion for\nGNU/Linux, FOSS, art and design.\n\nCheck out my CV to learn more.\nHere is a taste:",
+        "cards": [
+            {
+                "title": "Develop and Automate",
+                "body": "I design and maintain _python automation_ for a fast-paced enterprise service centre\nand build _apps and websites_ on proven modern frameworks.",
+                "detailHeading": "Dev tools I use",
+                "img": {
+                    "src": "/images/code512.png",
+                    "height": 500,
+                    "width": 500
+                },
+                "detailPara": [
+                    "Javascript, HTML and CSS",
+                    "Python",
+                    "Next.js",
+                    "React",
+                    "Jest",
+                    "C++",
+                    "GNU/Linux!"
+                ]
+            },
+            {
+                "title": "Illustration and Design",
+                "body": "I create _audiovisual, 2D and 3D assets_, with skill in a wide range of tools.",
+                "detailHeading": "Design tools I use",
+                "img": {
+                    "src": "/images/design512.png",
+                    "height": 500,
+                    "width": 500
+                },
+                "detailPara": [
+                    "Inkscape/Illustrator",
+                    "Gimp/Photoshop",
+                    "Blender",
+                    "Penpot",
+                    "DaVinci Resolve",
+                    "Presonus Studio One",
+                    "FL Studio"
+                ]
+            },
+            {
+                "title": "IT operations analysis",
+                "body": "I have _years of experience_ as an _IT operations analyst_ for a telco.\nI provide deep _insights_ and effective recommendations.",
+                "detailHeading": "Analytical tools I use",
+                "img": {
+                    "src": "/images/analysis512.png",
+                    "height": 500,
+                    "width": 500
+                },
+                "detailPara": [
+                    "Excel",
+                    "PowerBI",
+                    "Python"
+                ]
+            }
+        ]
+    },
+    "portfolio": {
+        "title": "Portfolio",
+        "subtitle": "Check out a sample of my latest projects!",
+        "cards": [
+            {
+                "title": "Expense Tracker",
+                "url": "https://xp3ns.herokuapp.com/",
+                "img": {
+                    "src": "/images/work1_xp3ns.png",
+                    "height": 500,
+                    "width": 500
+                }
+            },
+            {
+                "title": "Decision Maker",
+                "url": "https://limitless-mountain-91728.herokuapp.com/",
+                "img": {
+                    "src": "/images/work2_decisions.png",
+                    "height": 500,
+                    "width": 500
+                }
+            }
+        ]
+    }
+}

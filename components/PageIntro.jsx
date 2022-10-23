@@ -1,7 +1,7 @@
 import Image from 'next/image'
-import { useState } from 'react'
 import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai'
 import down from '../public/images/down246.png'
+import replaceEmphasis from '../utils/replaceEmphasis'
 const PageIntro = (props) => {
     return (
         <section className='px-8 pt-8 min-h-screen flex flex-col justify-between font-asap md:px-20 lg:px-32'>
@@ -9,7 +9,11 @@ const PageIntro = (props) => {
                 <h2 className='text-3xl text-purple-500 md:text-5xl lg:text-7xl'>{props.title}</h2>
                 <h3 className='text-xl md:text-2xl mx-auto'>{props.subtitle}</h3>
                 <div>
-                    <p className='text-md py-2 md:text-lg text-gray-700 dark:text-gray-300 whitespace-pre-line'>{props.para}</p>
+                    <p className='text-md py-2 md:text-lg text-gray-700 dark:text-gray-300 whitespace-pre-line'>
+                        {replaceEmphasis(props.para)}
+                        {/* below needed for transpilation to include the emphasis styling */}
+                        <span className='text-purple-800'></span>
+                    </p>
                 </div>
                 <div className='text-5xl flex justify-center gap-16 text-gray-600 '>
                     <a href='https://github.com/account-sxf'>

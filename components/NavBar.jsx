@@ -5,7 +5,7 @@ const NavBar = (props) => (
     <nav className='mx-2 p-2 flex items-center justify-between bg-fuchsia-50 dark:bg-stone-700 rounded-b-2xl sticky left-0 right-0 top-0 z-20'>
         <div className='flex items-center w-1/2'>
             <div className='items-center shrink-0 hidden lg:flex'>
-                <Image src={favicon} />
+                <Image src={favicon} alt="website icon" />
             </div>
             <h1 className='text-lg my-auto pl-2 whitespace-nowrap overflow-hidden'>Rory Coded This</h1>
         </div>

@@ -1,8 +1,8 @@
 import { useRef, useState } from 'react'
 import Head from 'next/head'
 
-import thumbsDark from '../public/images/thumbs-light512.png'
-import thumbsLight from '../public/images/thumbs-dark512.png'
+import thumbsLight from '../public/images/thumbs-light512.png'
+import thumbsDark from '../public/images/thumbs-dark512.png'
 import code from '../public/images/code512.png'
 import design from '../public/images/design512.png'
 import analysis from '../public/images/analysis512.png'
@@ -54,22 +54,19 @@ export default function Home() {
                 <PageIntro {...{
                     title: "Rory Samson",
                     subtitle: "Front-to-back developer and IT business analyst",
-                    para: "Hi, I'm Rory,\n\nI am looking for my next developer job. Please check out my work and get in touch\nif you think I could be a good fit for your team.",
+                    para: "Hi, _I'm Rory_.\n\nI am looking for my _next developer job_. Please _check out my work_.\nCould I be a good fit for your team?",
                     mainImg,
                     handleScrollClick
                 }} />
                 <div ref={detailSection} className="h-24"></div>
                 <DetailCardSection {...{
                     title: "What I can do",
-                    para: [
-                        "I am a developer and competent business analyst with a passion for GNU/Linux, FOSS, art and design.",
-                        "Check out my CV to learn more. Here is a taste:"
-                    ]
+                    para: "I am a _developer_ and competent _operations_ _analyst_ with a passion for\nGNU/Linux, FOSS, art and design.\n\nCheck out my CV to learn more.\nHere is a taste:",
                 }} >
                     <DetailCard {...{
                         title: "Develop and Automate",
                         img: code,
-                        body: "I design and maintain python automation for a fast-paced enterprise service centre and build apps and websites on proven modern frameworks.",
+                        body: "I design and maintain _python automation_ for a fast-paced enterprise service centre\nand build _apps and websites_ on proven modern frameworks.",
                         detailHeading: "Dev tools I use",
                         detailPara: [
                             "Javascript, HTML and CSS",
@@ -84,7 +81,7 @@ export default function Home() {
                     <DetailCard {...{
                         title: "Illustration and Design",
                         img: design,
-                        body: "I create visual, 3d and audio assets, with skill in a wide range of tools.",
+                        body: "I create _audiovisual, 2D and 3D assets_, with skill in a wide range of tools.",
                         detailHeading: "Dev tools I use",
                         detailPara: [
                             "Inkscape/Illustrator",
@@ -99,7 +96,7 @@ export default function Home() {
                     <DetailCard {...{
                         title: "IT operations analysis",
                         img: analysis,
-                        body: "I have years of experience as an IT operations analyst for a telco. I provide deep insights and effective recommendations.",
+                        body: "I have _years of experience_ as an _IT operations analyst_ for a telco.\nI provide deep _insights_ and effective recommendations.",
                         detailHeading: "Analytical tools I use",
                         detailPara: [
                             "Excel",

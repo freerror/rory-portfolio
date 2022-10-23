@@ -1,7 +1,7 @@
 const PortfolioSection = (props) => (
     <section className='text-center bg-gray-100 dark:bg-stone-800 shadow-inner shadow-stone-300 dark:shadow-black pb-16 px-3'>
         <div>
-            <h3 className='text-3xl pt-16 pb-8'>{props.title}</h3>
+            <h3 className='text-3xl pt-11 pb-8'>{props.title}</h3>
             <p>
                 {props.subtitle}
             </p>

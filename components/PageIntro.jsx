@@ -4,12 +4,13 @@ import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai'
 import down from '../public/images/down246.png'
 const PageIntro = (props) => {
     return (
-        <section className='pt-8 min-h-screen flex flex-col justify-between font-asap md:px-20 lg:px-32 pb-20'>
-            <div className='text-center flex flex-col gap-9 items-center'>
-                <h2 className='text-3xl text-purple-500 md:text-5xl lg:text-7xl'>Rory Samson</h2>
-                <h3 className='text-xl md:text-2xl mx-auto'>Front-to-back developer and IT business analyst</h3>
-                <p className='text-md md:text-lg pt-5 text-gray-700 dark:text-gray-300'>Hi, Im Rory.</p>
-                <p className='text-md md:text-lg pb-5 text-gray-700 dark:text-gray-300'>I am looking for my next developer job. Please check out my work and get in touch if you think I could be a good fit for your team.</p>
+        <section className='px-8 pt-8 min-h-screen flex flex-col justify-between font-asap md:px-20 lg:px-32'>
+            <div className='text-center flex flex-col gap-11 items-center'>
+                <h2 className='text-3xl text-purple-500 md:text-5xl lg:text-7xl'>{props.title}</h2>
+                <h3 className='text-xl md:text-2xl mx-auto'>{props.subtitle}</h3>
+                <div>
+                    <p className='text-md py-2 md:text-lg text-gray-700 dark:text-gray-300 whitespace-pre-line'>{props.para}</p>
+                </div>
                 <div className='text-5xl flex justify-center gap-16 text-gray-600 '>
                     <a href='https://github.com/account-sxf'>
                         <AiFillGithub />
@@ -22,7 +23,8 @@ const PageIntro = (props) => {
                     <Image src={props.mainImg} width="375px" height="613.4px" alt="original vector art of Rory" />
                 </div>
             </div>
-            <div className='bottom-0 sticky flex-grow-0 w-fit max-h-fit mx-auto'>
+            <div className='h-56'></div>
+            <div onClick={props.handleScrollClick} className='bottom-0 sticky flex-grow-0 w-fit max-h-fit mx-auto cursor-pointer'>
                 <Image src={down} width="128px" height="128px" alt="original vector art of Rory" />
             </div>
         </section>

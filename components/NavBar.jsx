@@ -2,7 +2,7 @@ import Image from 'next/image'
 import favicon from '../public/favicon.ico'
 import { BsFillMoonStarsFill } from 'react-icons/bs'
 const NavBar = (props) => (
-    <nav className='mx-2 p-2 flex items-center justify-between bg-fuchsia-50 dark:bg-stone-700 rounded-b-2xl sticky left-0 right-0 top-0 z-20'>
+    <nav className='mx-2 p-2 flex items-center justify-between bg-fuchsia-50 dark:bg-stone-700 shadow-lg rounded-b-2xl sticky left-0 right-0 top-0 z-20'>
         <div className='flex items-center w-1/2'>
             <div className='items-center shrink-0 hidden lg:flex'>
                 <Image src={favicon} alt="website icon" />

@@ -1,7 +1,7 @@
 import Image from 'next/image'
 
 const DetailCard = (props) => (
-    <div className='text-center basis-full max-w-2xl padding-10 shadow-xl rounded-2xl space-y-5 pb-10 overflow-hidden border'>
+    <div className='text-center basis-full max-w-2xl padding-10 shadow-lg rounded-2xl space-y-5 pb-10 overflow-hidden border'>
         <h3 className='text-xl font-medium pt-8 p-2'>{props.title}</h3>
         <div className='h-fit mx-8 overflow-hidden'>
             <Image src={props.img} alt="a snippet of code" />

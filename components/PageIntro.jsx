@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai'
-import down from '../public/images/down246.png'
+import down from '../public/images/down128.png'
 import replaceEmphasis from '../utils/replaceEmphasis'
 const PageIntro = (props) => {
     return (
@@ -17,21 +17,19 @@ const PageIntro = (props) => {
                 </div>
                 <div className='text-5xl flex justify-center gap-16 text-gray-600 '>
                     <a href='https://github.com/account-sxf'>
-                        <AiFillGithub />
+                        <AiFillGithub title='GitHub Link' />
                     </a>
                     <a href='https://nz.linkedin.com/in/rory-samson-441896244'>
-                        <AiFillLinkedin />
+                        <AiFillLinkedin title='LinkedIn Link' />
                     </a>
                 </div>
-                <div className='w-fit m-auto'>
-                    <Image src={props.mainImg} width="375px" height="613.4px" alt="original vector art of Rory" />
-                </div>
+                <Image src={props.mainImg} layout='fixed' alt="original vector art of Rory" />
             </div>
-            <div className='h-56'></div>
+            <div className='h-80'></div>
             <div onClick={props.handleScrollClick} className='bottom-0 sticky flex-grow-0 w-fit max-h-fit mx-auto cursor-pointer'>
-                <Image src={down} width="128px" height="128px" alt="original vector art of Rory" />
+                <Image src={down} alt="original vector art of Rory" />
             </div>
-        </section>
+        </section >
     )
 }
 

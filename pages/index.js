@@ -3,11 +3,6 @@ import Head from 'next/head'
 
 import thumbsLight from '../public/images/thumbs-light512.png'
 import thumbsDark from '../public/images/thumbs-dark512.png'
-import code from '../public/images/code512.png'
-import design from '../public/images/design512.png'
-import analysis from '../public/images/analysis512.png'
-import work1 from "../public/images/work1_xp3ns.png"
-import work2 from "../public/images/work2_decisions.png"
 
 import NavBar from '../components/NavBar'
 import PageIntro from '../components/PageIntro'

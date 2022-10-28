@@ -9,6 +9,9 @@ module.exports = {
         extend: {
             fontFamily: {
                 asap: "asap"
+            },
+            backgroundImage: {
+                'r-pattern': "url('/images/bg-r-pattern.svg')",
             }
         },
     },

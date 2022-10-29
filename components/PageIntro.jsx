@@ -4,7 +4,7 @@ import down from '../public/images/down128.png'
 import replaceEmphasis from '../utils/replaceEmphasis'
 const PageIntro = (props) => {
     return (
-        <div className='bg-r-pattern relative top-[-40px]'>
+        <div className='bg-r-pattern bg-fixed relative top-[-40px]'>
             <section className='bg-gradient-to-b from-transparent to-white dark:to-stone-900 px-8 pt-24 min-h-screen flex flex-col justify-between font-asap md:px-20 lg:px-32'>
                 <div className='text-center flex flex-col gap-11 items-center'>
                     <h2 className='text-3xl text-purple-500 md:text-5xl lg:text-7xl'>{props.title}</h2>

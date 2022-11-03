@@ -21,8 +21,17 @@ module.exports = {
     plugins: [
         plugin(function ({ addUtilities }) {
             addUtilities({
-                '.perspective-2px': {
+                '.parallax-wrapper': {
+                    'height': '100vh',
+                    'overflow-x': 'hidden',
+                    'overflow-y': 'auto',
                     'perspective': '2px'
+                },
+                '.parallax-section': {
+                    'position': 'relative',
+                    'transform-style': 'preserve-3d',
+                    'height': '100vh',
+                    'display': 'flex',
                 }
             })
         })

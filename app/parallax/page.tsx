@@ -1,6 +1,6 @@
 export default function Page() {
     return (
-        <main className="wrapper">
+        <main className="parallax-wrapper">
             <section className="section parallax bg1">
                 <h1>Such Adorableness</h1>
             </section>

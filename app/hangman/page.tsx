@@ -3,7 +3,7 @@ import { useCallback, useEffect, useState } from 'react'
 import HangmanDrawing from '../../components/HangmanDrawing'
 import HangmanWord from '../../components/HangmanWord'
 import Keyboard from '../../components/HangmanKeyboard'
-import words from "../../fixtures/wordLIst.json"
+import words from "../../fixtures/wordList.json"
 
 const NUM_OF_BODY_PARTS = 6
 

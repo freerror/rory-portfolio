@@ -72,7 +72,16 @@
         "subtitle": "Check out a sample of my latest projects!",
         "cards": [
             {
-                "title": "Expense Tracker",
+                "title": "Groceria Grocery Planning App (Up! Check it out!)",
+                "url": "https://groceria-t3.vercel.app",
+                "img": {
+                    "src": "/images/work3_groceria.png",
+                    "height": 500,
+                    "width": 500
+                }
+            },
+            {
+                "title": "Expense Tracker (Down due to heroku free tier changes)",
                 "url": "https://xp3ns.herokuapp.com/",
                 "img": {
                     "src": "/images/work1_xp3ns.png",
@@ -81,7 +90,7 @@
                 }
             },
             {
-                "title": "Decision Maker",
+                "title": "Decision Maker (Down due to heroku free tier changes)",
                 "url": "https://limitless-mountain-91728.herokuapp.com/",
                 "img": {
                     "src": "/images/work2_decisions.png",
